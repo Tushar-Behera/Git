@@ -1,0 +1,73 @@
+1. To set User Details :
+
+	git config --global user.name "xxxxxxxx xxxxxxxx xxxxxxx" -> to set user name
+	git config --global user.email "xxxxxxxxx@xxxxxx.com"     -> to set user email
+
+2. Initialize Git On a Folder :
+
+	git init  ( .git folder will generate which store all records)
+
+3. Check Item inside a Folder :
+
+	ls		-> see all unhide File
+	ls -a		-> see all all file including hidden files
+
+4. Jump into a Folder :
+
+	cd Folder_Name		-> Jump into a particular Folder
+	cd -				-> jump out to previous Folder
+
+5. To see what all inside a Folder :
+
+	ls Folder_Name		-> to check what inside the Folder
+
+6. To create/remove a New File :
+
+	touch filename.extension	-> create a particular type of File 
+	git rm filename.extension	-> remove/delete a particular File
+
+7. To create/remove Folder :
+
+	mkdir Folder_Name			-> create new Folder
+	rm -r Folder_Name			-> remove/delete a folder
+
+8. To Check the changes :
+
+	git status			-> show all details about the files inside our repo (untracked/modiffied/staged)
+
+9. To add files to staging area :
+
+	git add filename.extension		-> push particular untracked file in to staging area
+	git add .  |or|  git add -A		-> move all untracked file into staging area
+
+10. Restore from staging area to untracked mode :
+
+	git restore --stage filename.extension	-> move a particular file to untracked mode
+	git restore --stage .				-> move all files from staging area to untracked mode
+
+11. Finalize files for commit or to save updates on a file :
+
+	git commit -m "Type what are the changes u made"		-> finalize ur staging file with date and comment for future use
+	git commit -am "your comment "					-> Directly commit untracked file to commit area
+
+
+12. Commit/stage area to untracked area :
+
+	git rm --cached filename.extension			-> directly send the file from commit/stage area to untracked area
+	git rm -f filename.extension 				-> to force remove that file
+
+13. To see content inside a file :
+
+	cat filename.extension			-> see all the content inside a file
+
+14. To restore a File content :
+	
+	restore filename.extension		-> restore the file content before commit
+
+***NOTE***
+
+	# if " warning: in the working copy of 'test.txt', LF will be replaced by CRLF the next time Git touches it " this type of warning
+appear while adding files to "staging area" to avoid these warning use --
+
+	==>	git config --global core.autocrlf false
+
