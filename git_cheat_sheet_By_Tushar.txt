@@ -150,7 +150,14 @@ appear while adding files to "staging area" to avoid these warning use --
 	git checkout branch_name			-> help to change directory
 
 
-22.	
+
+22.	merging one branch to another :
+
+	git merge branch_name_to_be_merge		-> first go to particular branch and put the branch name which to be merged
+
+
+23.
+
 
 	
 	
