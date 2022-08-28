@@ -133,7 +133,29 @@ appear while adding files to "staging area" to avoid these warning use --
 
 
 
-19.	Manupulate with Directories/folders :
+19.	Manupulate with commits :
+
+	git commit --amend				-> add this commit with the previous one using Vim editor
+	
+
+
+20.	To create/remove branch :
+
+	git branch name_of_new_branch		-> create new branch
+	git branch -d branch_name			-> delete a particular branch
+
+
+21.	changing branch :
+
+	git checkout branch_name			-> help to change directory
+
+
+22.	merging one branch to another :
+
+	git merge branch_name_to_be_merge		-> first go to particular branch and put the branch name which to be merged
+
+
+23.
 
 	
 	
