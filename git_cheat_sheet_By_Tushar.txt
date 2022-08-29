@@ -181,9 +181,9 @@ appear while adding files to "staging area" to avoid these warning use --
 	git remote set-url origin SSH_url_of_your_repository			-> link your pc with remote repo with SSH url
 	git remote -v 									-> To check the url for fetch and push
 
-<<<<<<< HEAD
-26. 
-=======
+
+
+
 26.  if error: failed to push some refs to 'your repo url' :
 
 	git pull --rebase origin master 
@@ -195,7 +195,7 @@ appear while adding files to "staging area" to avoid these warning use --
 	git push -u origin master				->push file from local repo to remote 
 
 	
->>>>>>> f636162 (License added updated 1)
+
 
 	
 	
