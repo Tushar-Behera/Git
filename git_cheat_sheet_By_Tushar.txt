@@ -191,14 +191,17 @@ appear while adding files to "staging area" to avoid these warning use --
 
 
 
-27.	How to push/pull on a git repo :
+27.	How to push on a git repo :
 
 	git push origin master				->push file from local repo to remote repo
 	git push -u origin master			-> local branch linked with remote branch Automatically 
 
 	
 
-28. 
+28.	git clone of remote repo on a local repo :
+
+	git clone "repo link from code section"	-> on local folder open git bash and run the command generate that remote repo with exist name on local
+
 
 
 	
