@@ -187,14 +187,18 @@ appear while adding files to "staging area" to avoid these warning use --
 26.  if error: failed to push some refs to 'your repo url' :
 
 	git pull --rebase origin master 
+	git pull origin master --allow-unrelated-histories
 
 
 
 27.	How to push/pull on a git repo :
 
 	git push origin master				->push file from local repo to remote repo
+	git push -u origin master			-> local branch linked with remote branch Automatically 
 
 	
+
+28. 
 
 
 	
