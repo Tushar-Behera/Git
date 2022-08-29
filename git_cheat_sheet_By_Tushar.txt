@@ -201,11 +201,8 @@ appear while adding files to "staging area" to avoid these warning use --
 28.	git clone of remote repo on a local repo :
 
 	git clone "repo link from code section"	-> on local folder open git bash and run the command generate that remote repo with exist name on local
-<<<<<<< HEAD
 	git push 						-> after cloning, editing , commiting you can directly push with this command
-=======
 
->>>>>>> a0e62dcece3b0193e7db23ed1e1c6ca0b4a58273
 
 
 	
