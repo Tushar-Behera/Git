@@ -204,6 +204,11 @@ appear while adding files to "staging area" to avoid these warning use --
 	git push 						-> after cloning, editing , commiting you can directly push with this command
 
 
+29.	chek which branch is merge and which one is not :
+
+	git branch --merge			->show which branch is merge with current branch
+	git branch --no-merge			->show which branch is not merged merged on current branch
+
 
 	
 	
