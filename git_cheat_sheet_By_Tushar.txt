@@ -156,8 +156,32 @@ appear while adding files to "staging area" to avoid these warning use --
 	git merge branch_name_to_be_merge		-> first go to particular branch and put the branch name which to be merged
 
 
-23.
 
+
+23.	Link git remote Repository To Working Directory :
+
+	git remote add origin your_repository_URL		-> copy the url from tab bar or repo HTTPS Link
+
+
+
+
+24.	To add ssh Key for read-write from your personal pc with out login every time :
+
+		ssh-keygen -t ed25519 -C "your_email@example.com"		-> Help to generate your ssh key / only press enter on passphrase and agin press enter to confirm
+		eval "$(ssh-agent -s)"							-> Run your ssh key on background and give your agent pid
+		ssh-add ~/.ssh/id_ed25519						-> Add your SSH private key to the ssh-agent
+		clip < ~/.ssh/id_ed25519.pub						-> copy your ssh key to clipboard
+	
+#	Now Go to setting > SSH and GPG keys > add new key paste the key and in title put your pc name to verify on which u link the SSH key.
+
+
+
+25.	Switch normal HTTPS URL to SSH URL for easy push without repeated login :
+	
+	git remote set-url origin SSH_url_of_your_repository			-> link your pc with remote repo with SSH url
+	git remote -v 									-> To check the url for fetch and push
+
+26. 
 
 	
 	
