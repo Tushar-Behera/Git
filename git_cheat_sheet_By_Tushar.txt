@@ -8,7 +8,11 @@
 2. Initialize Git On a Folder :
 
 	git init  ( .git folder will generate which store all records)
+	
+	**NOte**
+	Some times files are protected or attaching these files  to  git may create Problem in that case -
 
+	git config --global --add safe.directory 'address/path of your File/repo'
 
 
 3. Check Item inside a Folder :
@@ -105,7 +109,7 @@ appear while adding files to "staging area" to avoid these warning use --
 
 15.	To display all the files committed in the specified commit_id :
 
-	git show f5f3fa6e012adf5d2caf2e1310421ad8258950d3 --name-only	-> Display commited files under that commit id
+	git show paste_commit_id_here --name-only	-> Display commited files under that commit id
 
 
 
