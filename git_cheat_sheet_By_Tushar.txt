@@ -66,7 +66,8 @@
 
 	git restore --stage filename.extension		-> move a particular file to untracked mode
 	git restore --stage .					-> move all files from staging area to untracked mode
-	git rm --cached -r .                            -> move all file from staging to unstage(new code)
+  git rm --cached -r .                            -> move all files from staging to un stage (new code)
+
 
 
 
@@ -199,7 +200,13 @@ appear while adding files to "staging area" to avoid these warning use --
 27.	How to push on a git repo :
 
 	git push origin master				->push file from local repo to remote repo
-	git push -u origin master			-> local branch linked with remote branch Automatically 
+	git push -u origin master			-> local branch linked with remote branch Automatically
+
+**NOTE**
+	
+	    could not find UI helper ‘GitHub.UI’  If this problem happen during pushing the code then kindly update your gitbash.
+	
+	git update	select( Y/N ) to choose option .   
 
 	
 
