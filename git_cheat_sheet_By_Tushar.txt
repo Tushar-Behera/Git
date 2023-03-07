@@ -66,7 +66,8 @@
 
 	git restore --stage filename.extension		-> move a particular file to untracked mode
 	git restore --stage .					-> move all files from staging area to untracked mode
-      git rm --cached -r .                            -> move all files from staging to un stage (new code)
+  git rm --cached -r .                            -> move all files from staging to un stage (new code)
+
 
 
 
